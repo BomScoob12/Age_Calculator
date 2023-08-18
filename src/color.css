@@ -1,0 +1,17 @@
+:root {
+  --primary-purple-color: hsl(259, 100%, 65%);
+  --primary-lightred-color: hsl(0, 100%, 67%);
+
+  --neutral-white-color: hsl(0, 0%, 100%);
+  --neutral-offwhite-color: hsl(0, 0%, 94%);
+  --neutral-lightgrey-color: hsl(0, 0%, 86%);
+  --neutral-smokeygrey-color: hsl(0, 1%, 44%);
+  --neutral-offblack-color: hsl(0, 0%, 8%);
+
+  --font-size-input: 32 px;
+
+  --font-family: 'Poppins';
+  --weights-400i: 400i;
+  --weights-700i: 700;
+  --weights-800i: 800i;
+}

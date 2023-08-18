@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--neutral-lightgrey-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center;
+  justify-content: center;
+  background-color: var(--neutral-offwhite-color);
+  height: auto;
+  margin: 5%;
+  height: 400px;
+}
+
+.age_calculator_input {
+  display: flex;
+  flex-direction: 3 column; /* Change to column direction */
+  padding: 10px;
+}
+
+.age_calculator_input input {
+  display: block;
+  margin: 1em 1em 1em 0em;
+  width: auto;
+  height: 3em;
+}
+
+.submit_button {
+  display: block;
+  margin-top: 10px; /* Add margin-top to create space */
+  align-self: flex-end;
+}
+
+.line {
+  align-self: center;
+  content: '';
+  width: 100%;
+  height: 1px; /* You can adjust the thickness of the line */
+  background-color: black; /* You can change the color of the line */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
